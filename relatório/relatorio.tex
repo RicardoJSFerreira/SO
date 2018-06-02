@@ -21,6 +21,8 @@ Neste relatório faremos a análise ao nosso projeto de Sistemas Operativos, no 
 
 \tableofcontents
 
+\pagebreak
+
 \section{Introdução}
 \label{sec:intro}
 Este projeto foi desenvolvido com o objetivo de desenvolver um programa responsável pelo processamento de Notebooks.
@@ -40,32 +42,27 @@ Nesta secção mostramos uma parte do enunciado do projeto, onde é demonstrado 
 \label{sec:solucao}
 
 \subsection{AgrupaComando}
-*AgrupaComando
-A funçao AgrupaComando transforma uma String (linha) de comandos em um arraylist de comandos
-** A funçao recebe uma linha de comandos
-** A funçao strdup recebe uma linha e retorna uma copia desta
-** A funçao strtok recebe uma string (copia da linha) e um array vazio e atraves do while,retorna um array preenchido em que cada elemento desse array é um comando da linha de comandos lida
+A função AgrupaComando transforma uma String (linha) de comandos em um arraylist de comandos.
+A função recebe uma linha de comandos.
+A função strdup recebe uma linha e retorna uma copia desta
+A função strtok recebe uma string (cópia da linha) e um array vazio e atraves do while,retorna um array preenchido em que cada elemento desse array é um comando da linha de comandos lida.
+
 \subsection{fazEcho}
-fazecho : função que imprime uma string com todos os comandos lidos
+Função que imprime uma string com todos os comandos lidos.
 
 
 \subsection{executar}
-
+A função executar executa um comando e escreve no ficheiro.
+A funçao inicia a função agrupaComando para repartir os comandos pedidos escreve no ficheiro através de pipes o resultado obtido.
 
 
 
 \subsection{lerFicheiro}
-lerficheiro
-Função que escreve o ficheiro todo
-
-\subsection{escreveFicheiro}
-*escreveFicheiro
-A funçao inicializa 3 ficheiros distintos e retorna erros se a criaçao de algum nao for bem sucedida
-**A funçao inicializa uma nova funçao chamada lerFicheiro em que sao passados como argumentos dois ficheiros
+Função que escreve o ficheiro todo.
 
 \subsection{main}
-main:
-Função que executa a função escreveFicheiro, que permite como o nome indica escrever no ficheiro.
+A funçao inicializa 4 ficheiros distintos e retorna erros se a criaçao de algum nao for bem sucedida
+A funçao inicializa uma nova funçao chamada lerFicheiro em que sao passados como argumentos dois ficheiros.
 
 \section{Conclusão}
 \label{sec:conclusao}

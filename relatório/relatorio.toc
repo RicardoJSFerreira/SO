@@ -1,11 +1,10 @@
 \select@language {portuges}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
-\contentsline {section}{\numberline {2}Descri\IeC {\c c}\IeC {\~a}o do Problema}{1}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}
+\contentsline {section}{\numberline {2}Descri\IeC {\c c}\IeC {\~a}o do Problema}{2}
 \contentsline {section}{\numberline {3}Concep\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o}{2}
 \contentsline {subsection}{\numberline {3.1}AgrupaComando}{2}
 \contentsline {subsection}{\numberline {3.2}fazEcho}{2}
 \contentsline {subsection}{\numberline {3.3}executar}{2}
 \contentsline {subsection}{\numberline {3.4}lerFicheiro}{2}
-\contentsline {subsection}{\numberline {3.5}escreveFicheiro}{2}
-\contentsline {subsection}{\numberline {3.6}main}{2}
-\contentsline {section}{\numberline {4}Conclus\IeC {\~a}o}{2}
+\contentsline {subsection}{\numberline {3.5}main}{3}
+\contentsline {section}{\numberline {4}Conclus\IeC {\~a}o}{3}
