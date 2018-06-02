@@ -1,0 +1,30 @@
+Este comando lista os ficheiros:
+$ ls
+>>>
+a.out
+coise
+DocumentodeSaida
+DocumentoTeste
+Erros.txt
+readLine.c
+readLine.h
+teste
+wow
+writeFile.c
+
+<<<
+Agora podemos ordenar estes ficheiros:
+$ date
+>>>
+Sat Jun  2 01:03:52 WEST 2018
+
+<<<
+E escolher o primeiro:
+$ ps
+>>>
+  PID TTY          TIME CMD
+ 2220 pts/0    00:00:00 bash
+ 5596 pts/0    00:00:00 coise
+ 5599 pts/0    00:00:00 ps
+
+<<<
